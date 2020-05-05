@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -28,11 +30,25 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  margin-top: 50px;
+  border: 1px solid gainsboro;
+}
+.inner-items{
+  width: 70%;
+  text-align: center;
+}
+.outer-row{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px
+}
+
+.actionButton{
+  float: right;
+  margin-left: 1px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
 }
